@@ -3,22 +3,8 @@
   "id": "advdimpoc",
   "version": "${version}",
   "name": "Adventure Dimension Proof of Concept",
-  "description": "",
-  "authors": [],
-  "contact": {
-    "repo": "https://github.com/abbie/AdvDimPoC"
-  },
   "license": "All-Rights-Reserved",
-  "icon": "assets/advdimpoc/icon.png",
   "environment": "*",
-  "entrypoints": {
-    "client": [
-      "cc.abbie.advdimpoc.client.AdvDimPoCClient"
-    ],
-    "main": [
-      "cc.abbie.advdimpoc.AdvDimPoC"
-    ]
-  },
   "mixins": [
     "advdimpoc.mixins.json"
   ],
